@@ -1,0 +1,33 @@
+.Device {
+    margin: 16px;
+}
+
+.DeviceTitle {
+    margin-bottom: 5px;
+}
+
+.Controls {
+    display: flex; 
+    flex-direction: column;
+}
+
+.Icon {
+    margin-top: 12px;
+    font-size: 24pt;
+}
+
+.FanIcon {
+    animation-name: Rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes Rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,13 @@
+.Hub {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    margin: 24px;
+}
+
+.Devices {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 500px;
+}

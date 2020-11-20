@@ -1,0 +1,9 @@
+.Control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Control > * {
+    margin: 12px;
+}

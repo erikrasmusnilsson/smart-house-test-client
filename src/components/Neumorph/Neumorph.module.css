@@ -1,0 +1,21 @@
+.Neumorph {
+    display: block;
+    
+    padding: 12px 24px;
+    border-radius: 50px;
+    background: #d89ace;
+    box-shadow:  22px 22px 48px #c089b7, 
+                -22px -22px 48px #f0abe5;
+    color: #593F55;
+}
+
+.Sink {
+    border-radius: 50px;
+    background: linear-gradient(145deg, #c28bb9, #e7a5dc);
+    box-shadow:  22px 22px 48px #c089b7, 
+                -22px -22px 48px #f0abe5;
+}
+
+.Vertical {
+    flex-direction: column;
+}
